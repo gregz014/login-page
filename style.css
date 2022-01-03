@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+.full-screen-container {
+  background-image: url("teahub.io-transparent-screen-wallpaper-486654.png");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: hsla(263, 29%, 15%, 0.61);
+  padding: 50px 30px;
+  min-width: 400px;
+  width: 50%;
+  max-width: 600px;
+}
+
+.login-title {
+  color: white;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  color: white;
+  font-weight: lighter;
+  font-size: 1.5em;
+  margin-bottom: 7px;
+}
+
+.input-group input {
+  background-color: hsla(235, 31%, 14%, 0.61);
+  border: 1px solid hsla(256, 41%, 21%, 0.603);
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: lighter;
+}
+
+.login-button {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+
+.login-button:hover {
+  border: 2px solid;
+  border-radius: 1px;
+  background-color: unset;
+  background: hsla(235, 31%, 14%, 0.61);
+  border-style: inherit;
+  font-weight: lighter;
+  font-size: 20px;
+  font-family: "Vujahday Script", cursive;
+}
